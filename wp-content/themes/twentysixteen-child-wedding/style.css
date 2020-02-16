@@ -1,0 +1,77 @@
+/*
+Theme Name: Wedding Singer Hire UK
+Theme URI: http://www.example.com/twentysixteen-child
+Version: 1
+Template: twentysixteen
+Author:  Hywel Llewellyn
+Author URI: http://www.hywel.me
+Description: Child Theme of TwentySixteen Theme
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: twenty-sixteen-child
+*/
+
+/*
+h1,h2 .site-title,.entry-title {
+	font-family: 'Poiret One', cursive;
+}
+*/
+
+/* https://allaboutbasic.com/2016/01/15/wordpress-twenty-sixteen-2016-theme-modifications-change-colors-titles-metassidebar-fontsheaderfooter-menus-etc-using-css/
+*/
+
+.single-post .entry-content {
+width: 100% !important;
+}
+.single-post .byline, .posted-on, .cat-links, .tags-links {
+display: none !important;
+}
+
+p,.widget  {font-size: 1.2rem;}
+div.mjp-s-wrapper.s-graphic  {font-size: 1.1rem !important;color: #c67987 !important;}
+span.T_mp3j {font-weight: normal !important;}
+
+.widget {margin-bottom: 1em;}
+
+.site-title, .entry-title{
+  font-family: 'Poiret One', cursive;
+}
+
+
+.button-title {
+background:#ddd; color: #c67987 !important;
+    border: none;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    vertical-align: bottom;
+    float: right;
+    margin-right: 8%;
+}
+.button-title:hover{
+background:#e77776; color:#ddd;
+    border: none;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    vertical-align: bottom;
+    float: right;
+    margin-right: 8%;
+}
+
+
+
+.site-header{
+	padding: 0.1em 1%;
+}
+
+.site-footer .site-title:after {
+	content: "";
+	display: inline-block;
+	font-family: Montserrat, sans-serif;
+	opacity: 0.7;
+	padding: 0 0.307692308em 0 0.538461538em;
+}
